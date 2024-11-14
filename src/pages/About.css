@@ -1,0 +1,35 @@
+/* About Section */
+.about, .mission, .team {
+    padding: 2rem 0;
+    text-align: center;
+    background: #f4f4f9;
+}
+
+.about h2, .mission h2, .team h2 {
+    font-size: 2rem;
+    color: #007bff;
+    margin-bottom: 1rem;
+}
+
+.about p, .mission p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #333;
+    width: 80%;
+    margin: auto;
+}
+
+/* Team Section */
+.team-member {
+    margin: 1rem 0;
+}
+
+.team-member h3 {
+    font-size: 1.5rem;
+    color: #007bff;
+}
+
+.team-member p {
+    color: #555;
+    font-size: 1rem;
+}
