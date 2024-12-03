@@ -33,3 +33,72 @@
     color: #555;
     font-size: 1rem;
 }
+
+/* Responsive Adjustments for About Page */
+
+/* Small screens (Mobile) */
+@media (max-width: 480px) {
+    .about h2, .mission h2, .team h2 {
+        font-size: 1.5rem;
+    }
+
+    .about p, .mission p {
+        font-size: 1rem;
+        width: 90%; /* Reduce width for better readability */
+    }
+
+    .team-member h3 {
+        font-size: 1.2rem;
+    }
+
+    .team-member p {
+        font-size: 0.9rem;
+    }
+}
+
+/* Medium screens (Tablet / Small Desktop) */
+@media (min-width: 481px) and (max-width: 768px) {
+    .about h2, .mission h2, .team h2 {
+        font-size: 1.8rem;
+    }
+
+    .about p, .mission p {
+        font-size: 1rem;
+        width: 85%;
+    }
+
+    .team-member h3 {
+        font-size: 1.4rem;
+    }
+
+    .team-member p {
+        font-size: 1rem;
+    }
+}
+
+/* Large screens (Desktop / Full HD) */
+@media (min-width: 769px) {
+    .about h2, .mission h2, .team h2 {
+        font-size: 2rem;
+    }
+
+    .about p, .mission p {
+        font-size: 1.1rem;
+        width: 80%; /* Keep consistent with main style */
+    }
+
+    .team-member h3 {
+        font-size: 1.5rem;
+    }
+
+    .team-member p {
+        font-size: 1rem;
+    }
+}
+
+/* Extra Large screens (Large Desktop) */
+@media (min-width: 1200px) {
+    .about p, .mission p {
+        width: 75%; /* Slightly tighter content alignment for wide screens */
+    }
+}
